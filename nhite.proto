@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package tfgrpc;
+package pbnhite;
 
 // The greeting service definition.
 service Terraform {
