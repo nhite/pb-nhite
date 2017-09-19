@@ -2,7 +2,6 @@ syntax = "proto3";
 
 package pbnhite;
 
-// The greeting service definition.
 service Terraform {
   rpc Init (Arg) returns (Output) {}
   rpc Plan (Arg) returns (Output) {}
@@ -18,13 +17,11 @@ message Id {
   string tmpdir = 1;
 }
 
-// The request message containing the user's name.
 message Arg {
   string workingDir = 1;
   repeated string args = 2;
 }
 
-// The response message containing the greetings
 message Output {
   int32 retcode = 1;
   bytes  stdout = 2;
