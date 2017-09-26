@@ -14,7 +14,7 @@ message Body {
 }
 
 message Id {
-  string tmpdir = 1;
+  string sha256 = 1;
 }
 
 message Arg {
